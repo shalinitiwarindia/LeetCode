@@ -11,11 +11,4 @@ var maxTargetNodes = function(edges1, edges2) {
             if(w == u) continue;
             res += dfs(w, v, adj, parity, !even);
         }
-     
-    le
-    let res = [];
-    for(let i = 0; i < n1; ++i){
-        res.push((parity1[i]?even1:odd1) + Math.max(even2,odd2));
-    }
-    return res;
-};
+  
