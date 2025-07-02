@@ -20,12 +20,7 @@ var addBinary = function(a, b) {
         // Append the result for the current bit
         result = (carry % 2) + result;
         // Update carry for the next iteration
-        carry = Math.floor(carry / 2);
-    }
-
-    // If there's a carry left, append it to the result
-    if (carry) result = carry + result;
-
+       
     return result;
 
 
