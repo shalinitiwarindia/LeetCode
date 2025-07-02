@@ -17,10 +17,7 @@ var addBinary = function(a, b) {
         
         // Calculate the sum of the bits and the carry
         carry += Number(bitA) + Number(bitB);
-        // Append the result for the current bit
-        result = (carry % 2) + result;
-        // Update carry for the next iteration
-       
+     
     return result;
 
 
