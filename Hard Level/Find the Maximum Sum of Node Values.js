@@ -29,9 +29,6 @@ var maximumValueSum = function(nums, k, edges) {
     }
 
     if (count % 2 === 0) {
-        return sum;
-    } else {
-        return sum - minLoss;
-    }
+ 
 };
 
