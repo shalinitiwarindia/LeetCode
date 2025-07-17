@@ -5,13 +5,7 @@
  * @return {number}
  */
 var maximumValueSum = function(nums, k, edges) {
-    let sum = 0;
-    let count = 0;
-    let minLoss = Infinity;
-
-    for (let i = 0; i < nums.length; i++) {
-        let num = nums[i];
-        let x = num ^ k;
-
+ 
+   
        
 
