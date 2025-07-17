@@ -13,10 +13,5 @@ var maximumValueSum = function(nums, k, edges) {
         let num = nums[i];
         let x = num ^ k;
 
-        if (x > num) {
-            count++;
-            sum += x;
-        } else {
-            sum += num;
-    
+       
 
