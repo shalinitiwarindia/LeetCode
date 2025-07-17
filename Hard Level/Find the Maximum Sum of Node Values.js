@@ -18,14 +18,5 @@ var maximumValueSum = function(nums, k, edges) {
             sum += x;
         } else {
             sum += num;
-        }
-
-        let diff = num - x;
-        if (diff < 0) diff = -diff; 
-
-     
-
-    if (count % 2 === 0) {
- 
-};
+    
 
