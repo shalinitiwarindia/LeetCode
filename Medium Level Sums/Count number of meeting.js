@@ -1,9 +1,5 @@
 
-var countDays = function(days, meetings) {
-    // Step 1: Sort meetings by start time
-    meetings.sort((a, b) => a[0] - b[0]);
 
-    let mergedDays = 0, prevEnd = 0;
 
     // Step 2: Merge overlapping intervals
     for (let [start, end] of meetings) {
