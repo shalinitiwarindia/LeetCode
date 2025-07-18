@@ -28,5 +28,4 @@ var countDays = function(days, meetings) {
 // Test cases
 console.log(countDays(10, [[5,7],[1,3],[9,10]])); // Output: 2
 console.log(countDays(5, [[2,4],[1,3]])); // Output: 1
-console.log(countDays(6, [[1,6]])); // Output: 0
-console.log(countDays(519058, [[356831,464237],[223514,231054],[96523,343641]])); // Large test case
+
