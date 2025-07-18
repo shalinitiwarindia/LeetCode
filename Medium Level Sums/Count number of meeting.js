@@ -1,17 +1,7 @@
 
 
 
-    // Step 2: Merge overlapping intervals
-    for (let [start, end] of meetings) {
-        if (start > prevEnd + 1) {
-            // Count available days between previous meeting end and new meeting start
-            mergedDays += end - start + 1;
-        } else {
-            // Extend the existing meeting range
-            mergedDays += Math.max(0, end - prevEnd);
-        }
-        prevEnd = Math.max(prevEnd, end);
-    }
+   
 
     // Step 3: Calculate available days
     return days - mergedDays;
