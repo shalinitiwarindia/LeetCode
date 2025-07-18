@@ -1,8 +1,4 @@
-/**
- * @param {number} days
- * @param {number[][]} meetings
- * @return {number}
- */
+
 var countDays = function(days, meetings) {
     // Step 1: Sort meetings by start time
     meetings.sort((a, b) => a[0] - b[0]);
