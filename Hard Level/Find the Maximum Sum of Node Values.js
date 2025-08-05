@@ -24,9 +24,7 @@ var maximumValueSum = function(nums, k, edges) {
         if (diff < 0) diff = -diff; 
 
         if (diff < minLoss) {
-            minLoss = diff;
-        }
-    }
+     
 
     if (count % 2 === 0) {
         return sum;
