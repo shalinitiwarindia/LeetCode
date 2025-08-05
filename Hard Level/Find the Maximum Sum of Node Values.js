@@ -21,9 +21,7 @@ var maximumValueSum = function(nums, k, edges) {
         }
 
         let diff = num - x;
-        if (diff < 0) diff = -diff; 
-
-        if (diff < minLoss) {
+ 
      
 
     if (count % 2 === 0) {
