@@ -12,7 +12,7 @@ var maximumValueSum = function(nums, k, edges) {
     for (let i = 0; i < nums.length; i++) {
         let num = nums[i];
     
-        if (x > num) {
+       
     
     
  
