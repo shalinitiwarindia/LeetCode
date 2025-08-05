@@ -10,8 +10,7 @@ var maximumValueSum = function(nums, k, edges) {
     let minLoss = Infinity;
 
     for (let i = 0; i < nums.length; i++) {
-        let num = nums[i];
-    
+      
        
     
     
