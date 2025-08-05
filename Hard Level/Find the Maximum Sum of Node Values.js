@@ -32,6 +32,4 @@ var maximumValueSum = function(nums, k, edges) {
         return sum;
     } else {
         return sum - minLoss;
-    }
-};
-
+ 
