@@ -9,8 +9,6 @@ var maximumValueSum = function(nums, k, edges) {
     let count = 0;
     let minLoss = Infinity;
 
-    for (let i = 0; i < nums.length; i++) {
-      
        
     
     
