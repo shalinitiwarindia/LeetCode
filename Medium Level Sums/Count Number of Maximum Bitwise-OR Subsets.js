@@ -14,7 +14,6 @@ var countMaxOrSubsets = function(nums) {
         }
 
         if (currentOR === maxOR) {
-            return 1 << (nums.length - index);
-        }
+        
 
     
