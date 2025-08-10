@@ -9,11 +9,7 @@ var countMaxOrSubsets = function(nums) {
     }
 
     const backtrack = (index, currentOR) => {
-        if (index === nums.length) {
-            return currentOR === maxOR ? 1 : 0;
-        }
-
-        if (currentOR === maxOR) {
+  
         
 
     
