@@ -20,6 +20,3 @@ var countMaxOrSubsets = function(nums) {
         return backtrack(index + 1, currentOR | nums[index]) +
                backtrack(index + 1, currentOR);
     };
-
-    return backtrack(0, 0);
-};
