@@ -17,6 +17,4 @@ var countMaxOrSubsets = function(nums) {
             return 1 << (nums.length - index);
         }
 
-        return backtrack(index + 1, currentOR | nums[index]) +
-               backtrack(index + 1, currentOR);
-    };
+    
